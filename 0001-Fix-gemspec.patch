@@ -1,0 +1,25 @@
+From ca06a75aef1714552523f08fe454ef67dd78c679 Mon Sep 17 00:00:00 2001
+From: Athenas Jimenez <athenas.jimenez.gonzalez@intel.com>
+Date: Mon, 3 Aug 2015 16:47:55 +0000
+Subject: [PATCH] Fix gemspec
+
+Signed-off-by: Athenas Jimenez <athenas.jimenez.gonzalez@intel.com>
+---
+ rubygem-jeremymcanally-pending.gemspec | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/rubygem-jeremymcanally-pending.gemspec b/rubygem-jeremymcanally-pending.gemspec
+index f8086b8..d09a331 100644
+--- a/rubygem-jeremymcanally-pending.gemspec
++++ b/rubygem-jeremymcanally-pending.gemspec
+@@ -12,7 +12,6 @@ Gem::Specification.new do |s|
+   s.description = "pending lets you define a block of test code that is currently \"pending\" functionality, similar to RSpec's pending method."
+   s.email = "jeremymcanally@gmail.com"
+   s.extra_rdoc_files = ["History.txt", "README.txt"]
+-  s.files = ["History.txt", "Manifest.txt", "README.txt", "Rakefile", "lib/pending.rb", "tasks/ann.rake", "tasks/bones.rake", "tasks/gem.rake", "tasks/git.rake", "tasks/manifest.rake", "tasks/notes.rake", "tasks/post_load.rake", "tasks/rdoc.rake", "tasks/rubyforge.rake", "tasks/setup.rb", "tasks/spec.rake", "tasks/svn.rake", "tasks/test.rake", "test/test_pending.rb"]
+   s.homepage = "http://jeremymcanally.com"
+   s.rdoc_options = ["--main", "README.txt"]
+   s.rubyforge_project = "pending"
+-- 
+2.4.2
+
