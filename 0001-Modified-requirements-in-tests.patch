@@ -1,0 +1,31 @@
+From c5ba2a4328f427805b97685e520bb51bc33feb20 Mon Sep 17 00:00:00 2001
+From: Athenas Jimenez <athenas.jimenez.gonzalez@intel.com>
+Date: Mon, 3 Aug 2015 17:14:30 +0000
+Subject: [PATCH] Modified requirements in tests
+
+Signed-off-by: Athenas Jimenez <athenas.jimenez.gonzalez@intel.com>
+---
+ test/test_pending.rb | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/test/test_pending.rb b/test/test_pending.rb
+index 4ad9d69..214ce8b 100644
+--- a/test/test_pending.rb
++++ b/test/test_pending.rb
+@@ -1,5 +1,5 @@
+ require 'test/unit'
+-require File.dirname(__FILE__) + "/../lib/pending.rb"
++require File.join(File.dirname(__FILE__), '..', 'lib', 'pending.rb') 
+ 
+ # Quick and dirty way to test our output
+ class StdoutStub
+@@ -51,4 +51,4 @@ class TestPending < Test::Unit::TestCase
+       assert_equal "<this is fail> did not fail.", e.message
+     end
+   end
+-end
+\ No newline at end of file
++end
+-- 
+2.4.2
+
