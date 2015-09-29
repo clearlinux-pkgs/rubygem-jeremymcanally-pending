@@ -4,7 +4,7 @@
 #
 Name     : rubygem-jeremymcanally-pending
 Version  : 0.1
-Release  : 2
+Release  : 3
 URL      : https://rubygems.org/downloads/jeremymcanally-pending-0.1.gem
 Source0  : https://rubygems.org/downloads/jeremymcanally-pending-0.1.gem
 Summary  : No detailed summary available
