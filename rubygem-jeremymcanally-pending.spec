@@ -4,7 +4,7 @@
 #
 Name     : rubygem-jeremymcanally-pending
 Version  : 0.1
-Release  : 3
+Release  : 4
 URL      : https://rubygems.org/downloads/jeremymcanally-pending-0.1.gem
 Source0  : https://rubygems.org/downloads/jeremymcanally-pending-0.1.gem
 Summary  : No detailed summary available
@@ -56,11 +56,8 @@ fi
 
 %files
 %defattr(-,root,root,-)
-/usr/lib64/ruby/gems/2.2.0/cache/jeremymcanally-pending-0.1.gem
-/usr/lib64/ruby/gems/2.2.0/doc/jeremymcanally-pending-0.1/ri/cache.ri
-/usr/lib64/ruby/gems/2.2.0/doc/jeremymcanally-pending-0.1/ri/page-History_txt.ri
-/usr/lib64/ruby/gems/2.2.0/doc/jeremymcanally-pending-0.1/ri/page-README_txt.ri
-/usr/lib64/ruby/gems/2.2.0/gems/jeremymcanally-pending-0.1/History.txt
-/usr/lib64/ruby/gems/2.2.0/gems/jeremymcanally-pending-0.1/README.txt
-/usr/lib64/ruby/gems/2.2.0/gems/jeremymcanally-pending-0.1/test/test_pending.rb
-/usr/lib64/ruby/gems/2.2.0/specifications/jeremymcanally-pending-0.1.gemspec
+/usr/lib64/ruby/gems/2.3.0/cache/jeremymcanally-pending-0.1.gem
+/usr/lib64/ruby/gems/2.3.0/gems/jeremymcanally-pending-0.1/History.txt
+/usr/lib64/ruby/gems/2.3.0/gems/jeremymcanally-pending-0.1/README.txt
+/usr/lib64/ruby/gems/2.3.0/gems/jeremymcanally-pending-0.1/test/test_pending.rb
+/usr/lib64/ruby/gems/2.3.0/specifications/jeremymcanally-pending-0.1.gemspec
